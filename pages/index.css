@@ -139,13 +139,13 @@
   line-height: 30px;
 }
 
-.reservations {
+.reservation {
   background: url(../images/background_reservation.svg) center/cover no-repeat,
     #d9e7ff;
   padding: 100px 0 120px;
 }
 
-.reservations__title {
+.reservation__title {
   text-align: center;
   margin: 0 0 80px;
   font-weight: 500;
@@ -153,7 +153,7 @@
   line-height: 52px;
 }
 
-.reservations__form {
+.reservation__form {
   margin: 0 auto;
 }
 
