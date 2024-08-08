@@ -1,0 +1,76 @@
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 0;
+}
+
+.form__input {
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box; /* width=element+padding+border */
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 32px;
+  border: 1px solid #838383;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::-ms-input-placeholder,
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  width: 100%;
+  border-radius: 4px;
+  padding: 20px 0;
+  border: 1px solid #838383;
+  background-color: #1878dc;
+  transition: background-color 0.4s ease-out;
+  color: #fff;
+  font-weight: 500;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+
+.form__checkbox:checked {
+  display: none;
+  /* use custom checkmark svg - which unlike appearance property,
+  doesn't disrupt the doc flow without using absolute positioning
+  due to lack of a suitable anchor point,
+  and W3C invalidates nesting div inside the label element */
+}
+
+.form__checkbox:checked + .form__checkmark {
+  background: url(../images/check.svg) center no-repeat, #1878dc;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
