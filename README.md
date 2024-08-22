@@ -27,6 +27,4 @@ This is the 2nd project of the Software Engineering program at [TripleTen](https
 - some community-driven polls for rotating the menus
 - and some more stuff :)
 
-## ~~Installation~~
-
-There's nothing really to "install" but to simply download the code into a ZIP archive, extract it using your archiver of choice, and run `index.html` inside the web browser of your choice.
+## [Link to project website](https://pragmaticLudusian.github.io/se_project_coffeeshop)
